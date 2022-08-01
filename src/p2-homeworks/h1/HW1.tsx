@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 import Message from './Message';
+import AlternativeMessage from './AlternativeMessage';
 
 type MessageDataType = {
-    avatar:string
-    name:string
-    message:string
-    time:string
+    avatar: string
+    name: string
+    message: string
+    time: string
 
 }
 
@@ -14,7 +15,7 @@ const messageData: MessageDataType = {
     name: 'Some Name',
     message: 'some text',
     time: '22:00',
-}
+};
 
 function HW1() {
     return (
@@ -33,10 +34,13 @@ function HW1() {
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeMessage/>*/}
-            <hr/>
+            <AlternativeMessage
+                avatar2={messageData.avatar}
+                name2={messageData.name}
+                message2={messageData.message}
+                time2={messageData.time}/>
         </div>
-    )
+    );
 }
 
-export default HW1
+export default HW1;
