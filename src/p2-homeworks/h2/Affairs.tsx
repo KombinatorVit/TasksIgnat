@@ -56,7 +56,7 @@ function Affairs(props: AffairsPropsType) {
             <button onClick={setMiddle} className={onMiddle}>Middle</button>
             <button onClick={setLow} className={onLow}>Low</button>
 
-            // оптимизация фильтрации
+            {/*// оптимизация фильтрации*/}
 
             {/*<button onClick={set} className={setClass('all')} value={'all'}>All</button>*/}
             {/*<button onClick={set} className={setClass('high')} value={'high'}>High</button>*/}
