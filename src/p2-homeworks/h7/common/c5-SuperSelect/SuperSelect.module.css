@@ -1,0 +1,28 @@
+.select{
+    width: 180px;
+    padding: 5px;
+    padding-right: 30px;
+background-color: #005500;
+    cursor: pointer;
+    border: 2px inset rgb(118, 11, 118);
+    color: #180f0f;
+}
+
+.select:focus {
+    outline: none;
+    border: #dd3356 solid 2px;
+}
+.option {
+    color: #a737f1;
+    background: #dd3356;
+}
+.option:checked {
+    background: black;
+    color: #bbffbb;
+}
+
+.option:hover {
+    box-shadow: 0 0 10px 100px #ffff9b inset;
+    transition: all .2s ease-in-out;
+    background: red;
+}

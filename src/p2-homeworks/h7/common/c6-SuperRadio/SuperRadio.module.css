@@ -1,0 +1,20 @@
+.radio {
+    outline: none;
+    background: #bbffbb;
+}
+
+.radio:hover {
+    border: 2px solid #cc99ff;
+}
+
+.radio:checked {
+    background-color: #bbffbb
+}
+
+.radio:focus {
+    border: 2px solid #cc99ff;
+}
+
+.label {
+    cursor: pointer;
+}
